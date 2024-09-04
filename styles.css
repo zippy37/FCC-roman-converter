@@ -45,7 +45,7 @@ main {
 img {
   position: relative;
   left: 170px;
-  height: 100%;
+  height: max(700px,100%);
   margin: 0 auto;
   z-index: -1;
 }
