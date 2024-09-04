@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Amiri");
+
+:root {
+  --bg-darkblue: rgb(18,26,111);
+  --bg-cyan: rgb(89,168,216);
+  --bg-gold: rgb(255,170,0);
+  --bg-yellow: gold;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  background: url(https://github.com/zippy37/FCC-roman-converter/blob/main/bg-roman.jpg?raw=true);
+  background-size: cover;
+  width: 100vw;
+  font-family: "Noto Serif JP";
+  margin: 0 auto;
+  min-width: 600px;
+  min-height: 500px;
+  text-align: center;
+  overflow: auto;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -200px;
+  font-size: 3em;
+  color: var(--bg-gold);
+  text-shadow: 4px 4px 4px crimson;
+  width: 800px;
+}
+
+main {
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  position: relative;
+  left: 170px;
+  height: 100%;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  top: 260px;
+  right: 250px;
+  width: 400px;
+  background-image: linear-gradient(crimson, red, crimson);
+  padding: 5px 20px;
+  margin: 0 auto;
+  border: 10px double var(--bg-gold);
+}
+
+p, form, input, label, button {
+  position: relative;
+  display: grid;
+  margin: 1rem auto;
+  font-family: "Noto Serif JP";
+  font-size: 2rem;
+  background-color: rgb(250,210,160);
+}
+
+button {
+  background: linear-gradient(var(--bg-gold), var(--bg-yellow), var(--bg-gold));
+  width: 180px;
+  padding-bottom: 5px;
+}
+
+button:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input {
+  background-color: white;
+  width: 200px;
+  text-align: center;
+}
+
+p {
+  border: 5px double var(--bg-darkblue);
+  background: linear-gradient(var(--bg-gold), var(--bg-yellow), var(--bg-gold));
+  min-width: 250px;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
