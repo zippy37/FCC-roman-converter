@@ -53,13 +53,6 @@ function clearOutput() {
   output.innerText = "";
 };
 
-form.addEventListener('submit', function(event) { 
-  event.preventDefault();
-}); 
-
-convert.addEventListener("click", () => {
-  displayResult();
-});
 
 function displayResult() {
   
@@ -73,5 +66,10 @@ function displayResult() {
 };
 
 
+form.addEventListener('submit', function(event) { 
+  event.preventDefault();
+}); 
 
-
+convert.addEventListener("click", () => {
+  displayResult();
+});
