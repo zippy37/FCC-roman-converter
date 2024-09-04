@@ -45,9 +45,9 @@ main {
 img {
   position: relative;
   left: 170px;
-  width: 1000px;
+  width: 1050px;
   margin: 0 auto;
-  padding-bottom: -520px;
+  padding-bottom: -530px;
   z-index: -1;
 }
 
