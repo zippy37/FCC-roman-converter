@@ -45,9 +45,10 @@ main {
 img {
   position: relative;
   left: 170px;
+  top: 10px;
   width: 1050px;
   margin: 0 auto;
-  padding-bottom: -530px;
+  padding-bottom: -550px;
   z-index: -1;
 }
 
